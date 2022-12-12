@@ -59,7 +59,7 @@ body {
     
     .tm {
         display: flex;
-        gap: 40px;
+        /* gap: 40px; */
         margin-left: auto;
 
     }
@@ -208,6 +208,16 @@ body {
 
         letter-spacing: 0.02em;
         color: #4D5AE5;
+    }
+    .icontm {
+        width: 40px;
+        height: 40px;
+        color: black;
+        /* background-color: white; */
+        display: inline-block;
+        margin: 0 auto;
+        background-position: 50% 50%;
+        background-size: cover;
     }
     
     .container > button {
