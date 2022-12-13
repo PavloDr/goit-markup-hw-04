@@ -465,7 +465,7 @@ body {
     }
     .custli {
         display: inline-block;
-        background-size: cover;
+        /* background-size: cover; */
         background-position: center;
         background-size: 30%;
         margin: 0;
@@ -479,9 +479,6 @@ body {
         padding-left: 156px;
     }
 
-    .ft {
-        height: 310px;
-    }
     .ft .link {
         width: 115px;
         color: #4D5AE5;
@@ -504,6 +501,31 @@ body {
         
         color: #E7E9FC;
     }
+
+    .smft {
+        display: block;
+        margin-left: 540px;
+
+    }
+    .smft p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+    .smft svg {
+        margin: 0;
+        padding: 0;
+        width: 232px;
+        height: 40px;
+        margin-top: 16px;
+        /* background-size: cover; */
+
+    }
+
 
     .container > .portflink {
         display: flex;
