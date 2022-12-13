@@ -223,7 +223,7 @@ body {
         padding-bottom: 192px;
         max-width: 1600px;
     }
-    }
+    
     .toph {
         flex-direction: column;
         display: flex;
@@ -289,13 +289,16 @@ body {
         padding-right: 40px;
     }
 
+    .iconserv {
+        width: 264px;
+        margin: 0;
+        padding: 0;
+    }
+
     .serv .servli+.servli {
         margin-left: 24px;
     }
-    /* .servli .iconserv {
-        display: flex;    
-    } */
-
+    
     .services .servh {
         margin: 0;
         width: 264px;
@@ -431,11 +434,53 @@ body {
         margin-left: 24px;
     }
 
+    .cust {
+        height: 442px;
+        background-color: #FFFFFF;
+        padding-top: 120px;
+        padding-bottom: 120px;   
+    }
+    
+    .cust h2 {
+        margin-bottom: 72px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.11;
+        
+        letter-spacing: 0.02em;
+
+        text-transform: capitalize;
+        color: #2E2F42;
+    }
+
+    .custul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .custul .custli+.custli {
+        margin-left: 24px;
+    }
+    .custli {
+        display: inline-block;
+        background-size: cover;
+        background-position: center;
+        background-size: 30%;
+        margin: 0;
+        padding: 0;
+    }
+
     footer {
         background-color: #2E2F42;
         padding-top: 100px;
         padding-bottom: 100px;
         padding-left: 156px;
+    }
+
+    .ft {
+        height: 310px;
     }
     .ft .link {
         width: 115px;
